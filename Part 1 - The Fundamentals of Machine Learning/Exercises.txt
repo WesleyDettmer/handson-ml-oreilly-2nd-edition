@@ -1,0 +1,77 @@
+1 - How would you define ML?
+
+  A type of IA which is trained by feeding it data over time, that allows more accurate predictions without being explicitly programmed to do so. 
+
+2 - Can you name four types of problems where it shines?
+
+  Problems that require constant change in a long list of rules (like spam detection), using complex data for predicting patterns on a fluctuating environment, 
+  automatically apply actions after detecting a pattern in a system (like blocking a user or detecting frauds), cancer diagnosis  
+
+3 - What is a labeled training set?
+Set used in supervised learning algorithms, where one attribute of the training data indicates where the class the training example fits.
+
+4 - What are the two most common supervised tasks?
+
+Regression and classification, where regression returns an scalable value and classification, the outputs is boolean (1 or 0)
+
+5 - Can you name four common unsupervised tasks?
+
+Visualization, clustering, dimensionality reduction and association rule learning
+
+6 - What type of Machine Learning algorithm would you use to allow a robot to walk in various unknown terrains?
+
+Reinforced Learning, where he can use the data collected from trial and error to optimize itself
+
+7 - What type of algorithm would you use to segment your customers into multiple groups?
+
+Supervised learning if the groups have labels and unsupervised if there are no group labels.
+
+8 - Would you frame the problem of spam detection as a supervised learning problem or an unsupervised learning problem?
+
+Supervised, because the emails can have labels applied (spam/no spam) to them.
+
+9 - What is an online learning system?
+
+Learning system where the machine is constatly fed with data to improve.
+
+10 - What is out-of-core learning?
+
+Learning system that is capable of use data that can't fit into the computer memory, it uses online learning to take small amouts of data constantly.
+
+11 - What type of learning algorithm relies on a similarity measure to make predictions?
+
+Instance-base algorithm where it used the similarity measure on new cases, after training.
+
+12 - What is the difference between a model parameter and a learning algorithm hyperparameter?
+
+Model parameter will determinate how a model will predict being applied in a new case, the model has is most cases more than one parameter.
+Hyperparameter is a parameter used in the learning algorithm, not in the model.
+
+13 - What do model-based learning algorithms search for? What is the most common strategy they use to succeed? How do they make predictions?
+
+For the optimal value which it was trained, using it to give the results on new cases outside training. A cost function is generally used to set the value which the parameter has to have to minimize its function.
+It uses the value in the new case and the parameters on the function to make the prediction.
+
+14 - Can you name four of the main challenges in Machine Learning?
+
+Overfitting data (using a model too complicated for simpler problems), underfitting data (using simple models for complicated problems), lacking data (where the present data is not sufficient) and nonrepresentative data (data that is not filtered/selected to fit as representative of the population).
+
+15 - If your model performs great on the training data but generalizes poorly to new instances, what is happening? Can you name three possible solutions?
+
+Its overfitting the training data, you can reduce the complexity of the model by removing features or constraining the parameters, gather more data and fix the errors and remove outlies in the data.
+
+16 - What is a test set and why would you want to use it?
+
+Is a set used to test the model after training it with the training data and see how it performs, you use it to see how good/bad your model performs.
+
+17 - What is the purpose of a validation set?
+
+Compare results between different training models.
+
+18 - What can go wrong if you tune hyperparameters using test set?
+
+It may not perform out-of-sample since the model is trained just for that specific set.
+
+19 - What is repeated cross-validation and why would you prefer it to using a single validation set?
+
+Is a tool which compares models using a separate validation set (not wasting too much training data).
