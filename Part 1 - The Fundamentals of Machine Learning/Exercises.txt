@@ -1,11 +1,11 @@
 1 - How would you define ML?
 
-  A type of IA which is trained by feeding it data over time, that allows more accurate predictions without being explicitly programmed to do so. 
+A type of IA which is trained by feeding it data over time, that allows more accurate predictions without being explicitly programmed to do so. 
 
 2 - Can you name four types of problems where it shines?
 
-  Problems that require constant change in a long list of rules (like spam detection), using complex data for predicting patterns on a fluctuating environment, 
-  automatically apply actions after detecting a pattern in a system (like blocking a user or detecting frauds), cancer diagnosis  
+Problems that require constant change in a long list of rules (like spam detection), using complex data for predicting patterns on a fluctuating environment, 
+automatically apply actions after detecting a pattern in a system (like blocking a user or detecting frauds), cancer diagnosis  
 
 3 - What is a labeled training set?
 Set used in supervised learning algorithms, where one attribute of the training data indicates where the class the training example fits.
